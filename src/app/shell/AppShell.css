@@ -1,0 +1,72 @@
+:root {
+  --primary: #000;
+}
+header{
+  height: 76px;
+  background: #FFF;
+  margin-bottom: 38px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 70px 35px #FAFAFA;
+  z-index: 1;
+}
+header>.content,.Page{
+  max-width: 1232px;
+  padding: 0 20px;
+  margin:0 auto;
+  display: flex;
+}
+header .content {
+  background: url(../../assets/Logo.svg) center no-repeat;
+  justify-content: flex-end;
+  height:75px;
+}
+header .end {
+  width: 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Page {
+  padding-top: 115px;
+}
+.Page .left{
+  width: 296px;
+  min-width: 195px;
+}
+.Page .middle{
+  margin-left: 16px;
+  width: 100%;
+  min-width:600px;
+  max-width: calc(100% - 624px);
+}
+
+
+
+footer{
+  height: 200px;
+}
+footer .bottom {
+  display: flex;
+  padding-top: 136px;
+  color: var(--primary,#000);
+  font-size: 13px;
+  line-height: 34px;
+}
+footer .bottom .left {
+  width: 100%;
+  text-align: right;
+}
+footer .bottom .right {
+  width: 100%;
+  text-align: left;
+}
+.dot-seperator {
+  height: 0px;
+  width: 0px;
+  border-radius: 50%;
+  margin: 16px;
+  background: var(--primary,#000);
+  padding: 2px;
+}

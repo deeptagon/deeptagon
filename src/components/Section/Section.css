@@ -1,0 +1,13 @@
+.Section{
+  margin-bottom: 21px;
+}
+.Section .title{
+  color:#697488
+}
+.Section .content {
+  color: #525252;
+  padding: 24px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0px 6px 24px rgba(93, 62, 188, 0.04);
+}

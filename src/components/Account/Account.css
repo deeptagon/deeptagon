@@ -1,0 +1,36 @@
+.Account{
+  text-align: right;
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: right;
+  height: 40px;
+}
+.Account button{height: 40px; margin-left: 10px}
+.Account button svg {
+  margin-right: 6px;
+}
+.Account div{
+  cursor: pointer;
+  display: flex;
+  padding: 5px;
+  line-height: 28px;
+}
+.Account div img {
+  height: 30px;
+  width: 30px;
+  margin-left: 7px;
+  border-radius: 7px;
+}
+.Account .status{
+  height: 0px;
+  width: 0px;
+  background: #dbdbdb;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+.Account .status.active{
+  background:green
+}
+.btn-confirm.metamask-install-button {background: #f6851b !important;}
+.btn-confirm.metamask-install-button:hover {background: #c76910 !important;}

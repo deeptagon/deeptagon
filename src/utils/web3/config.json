@@ -1,0 +1,38 @@
+{
+  "maxGasAmount": 1000000000,
+  "CHAINS": {
+    "43112": {
+      "chainId": 43112,
+      "contractAddress": "",
+      "urls": [
+        "http://176.236.121.139:9652/ext/bc/C/rpc"
+      ],
+      "name": "Digiathon Testnet",
+      "nativeCurrency": {
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "decimals": 18
+      },
+      "blockExplorerUrls": [
+        "https://explorer.digiathon.org"
+      ]
+    },
+    "43113": {
+      "chainId": 43113,
+      "contractAddress": "",
+      "urls": [
+        "https://api.avax-test.network/ext/bc/C/rpc"
+      ],
+      "name": "Avalanche FUJI C-Chain",
+      "nativeCurrency": {
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "decimals": 18
+      },
+      "blockExplorerUrls": [
+        "https://testnet.snowtrace.io"
+      ]
+    }
+  },
+  "metamaskDownloadLink": "https://metamask.io/download/"
+}

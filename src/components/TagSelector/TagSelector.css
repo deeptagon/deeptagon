@@ -1,0 +1,23 @@
+.Tag {
+  height: 30px;
+  margin-left: 8px !important;
+  width: 60px;
+  border-radius: 2px ;
+  padding: 6px 16px 6px 16px;
+  border: none;
+  color: #FFF;
+  background: #F2F0FD !important;
+  color: var(--primary,#1EA4CE) !important;
+  cursor: pointer;
+  transition: .3s;
+  
+}
+.Tag:hover {
+  background: #e4e3e8;
+}
+.Tag.selected, .Tag.selected:hover {
+  background: var(--primary,#1EA4CE) !important;
+  color: #F2F0FD !important;
+}
+
+.Tag:first-child{margin-left: 0 !important}
